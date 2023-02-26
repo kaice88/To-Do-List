@@ -1,0 +1,180 @@
+@charset "ISO-8859-1";
+/* Reset CSS*/
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            /*hiệu ứng*/
+            color: rgba(70, 62, 62, 0.8);
+            font-family: 'Be Vietnam Pro', sans-serif;
+            font-size: 15px;
+        }
+
+        html {
+            background-color: #A18AFF;
+        }
+
+        .clear {
+            clear: both;
+        }
+     
+        .center .center_above {
+            font-weight: 100;
+        }
+
+        .center .center_below {
+            font-weight: 500;
+        }
+
+        .butAdd button {
+            position: absolute;
+            top: 81%;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 9rem;
+            height: 2.7rem;
+            border: 0.07rem solid #fff;
+            border-radius: 3rem;
+            letter-spacing: 0.1rem;
+            color: #fff;
+            cursor: pointer;
+            background-color: transparent;
+            font-family: Quicksand, sans-serif;
+            font-size: 15.5px;
+        }
+
+        /* Content */
+        
+
+        .todoList_icon .icon {
+            margin: 0 2px;
+            padding: 0 0;
+            border: none;
+            font-size: 18px;
+            background: transparent;
+            cursor: pointer;
+        }
+
+        .icon.edit {
+            color: rgba(253, 153, 175, 0.5);
+
+        }
+
+        .icon.delete {
+            color: rgba(250, 198, 8, 0.5);
+        }
+
+        .todoList_icon button.edit:hover {
+            color: rgba(253, 153, 175, 1);
+        }
+
+        .todoList_icon button.delete:hover {
+            color: rgba(250, 198, 8, 1);
+        }
+
+        .taskItemCheckBox {
+            position: relative;
+            border: 1px solid rgba(70, 62, 62, 0.8);
+            opacity: 1;
+            border-radius: 50%;
+            background-color: transparent;
+        }
+
+        /* CSS checkbox */
+        .container_cb {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        .container_cb input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+            height: 0;
+            width: 0;
+        }
+
+        .checkmark {
+            position: absolute;
+            top: -4px;
+            left: 0;
+            height: 20px;
+            width: 20px;
+            border-radius: 50%;
+            border: 2px solid rgba(63, 212, 244, 0.5);
+        }
+
+        .container_cb:hover input~.checkmark {
+            background-color: rgba(63, 212, 244, 0.5);
+        }
+
+        .container_cb input:checked~.checkmark {
+            background-color: #3FD4F4;
+        }
+
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        .container_cb input:checked~.checkmark:after {
+            display: block;
+        }
+
+        .container_cb .checkmark:after {
+            left: 5px;
+            top: 1px;
+            width: 4px;
+            height: 8px;
+            border: solid white;
+            border-width: 0 3px 3px 0;
+            -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+        }
+
+        .sub-todoList {
+            display: inline-block;
+            line-height: 45px;
+        }
+
+        .todoList_dot {
+            font-size: 8px;
+            margin: 0 10px;
+            position: relative;
+            bottom: 2px;
+            color: rgba(70, 62, 62, 0.5);
+        }
+
+        .todoList_topic {
+            color: rgba(70, 62, 62, 0.5);
+        }
+
+
+        /* Custom scrollbar  */
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        ::-webkit-scrollbar-track {
+              border-radius: 100vh;
+    			background: #f6f6f69e;
+        }
+
+        ::-webkit-scrollbar-thumb {
+         border-radius: 100vh;
+            background: #a02ee02e;
+        }

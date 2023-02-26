@@ -1,0 +1,46 @@
+@charset "ISO-8859-1";
+.form-wrapper {
+    background-color: #fff;
+}
+
+.banner {
+    color: #fff;
+}
+
+.green-bg {
+    background-color: #A18AFF;
+}
+.input-group input {
+    width: 28rem;
+    height: 5rem;
+    padding: 1rem 1rem 1rem 3rem;
+    background-color: #a09ca524;
+    border: none;
+    border-radius: 0.5rem;
+}
+.green-bg button {
+    background-color: transparent;
+}
+
+.signup-form {
+    padding: 12rem 0;
+}
+
+.signup-form h1 {
+    color: #A18AFF;
+    margin-bottom: 22px;
+}
+
+.signup-form p {
+    margin-bottom: 2.2rem;
+}
+
+.input-group {
+    padding: 17px 0;
+}
+
+.signup-form button {
+    background-color: #A18AFF;
+    border: none;
+    margin-top: 3.1rem;
+}

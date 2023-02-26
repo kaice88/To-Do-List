@@ -1,0 +1,48 @@
+@charset "ISO-8859-1";
+.green-bg button,
+.form-wrapper {
+    background-color: #A18AFF;
+}
+.input-group input {
+    width: 28rem;
+    height: 5rem;
+    padding: 1rem 1rem 1rem 3rem;
+    background-color: #ffffffe8;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.banner {
+    color: #A18AFF;
+}
+
+.banner p {
+    color: #555;
+}
+
+.green-bg {
+    background-color: #fff;
+}
+
+.signup-form {
+    padding: 8rem 0;
+}
+
+.signup-form h1 {
+    color: #FFFF;
+    margin-bottom: 20px;
+}
+
+.signup-form p {
+    margin-bottom: 2rem;
+}
+
+.input-group {
+    padding: 15px 0;
+}
+
+.signup-form button {
+    background-color: transparent;
+    border: 0.1rem solid #fff;
+    margin-top: 3rem;
+}

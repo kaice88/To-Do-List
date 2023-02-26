@@ -1,0 +1,113 @@
+@charset "ISO-8859-1";
+/* Reset CSS*/
+    * {
+        font-family: 'Be Vietnam Pro', sans-serif;
+        color: rgba(70, 62, 62, 0.8);
+    }
+
+    html {
+        font-family: 'Be Vietnam Pro', sans-serif;
+        font-size: 15.5px;
+        background-color: #A18AFF;
+    }
+
+    .clear {
+        clear: both;
+    }
+
+    .box_container {
+        width: 100%;
+        height: 44.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box_content {
+        width: 40rem;
+        height: 38rem;
+        background-color: #fff;
+        border-radius: 3rem;
+        box-shadow: 0 2rem 6rem rgb(0 0 0 / 30%);
+        overflow: hidden;
+        display: flex;
+    }
+
+    .info_content {
+        text-align: center;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    input {
+        border: none;
+        font-size: 15px;
+        font-family: 'Be Vietnam Pro';
+    }
+
+    i {
+        padding: 10px 10px;
+        color: #A18AFF;
+    }
+
+    .butAdd button {
+        width: 5.2rem;
+        height: 2.1rem;
+        border: 0.15rem solid #A18AFF;
+        border-radius: 3rem;
+        color: #A18AFF;
+        cursor: pointer;
+        background-color: transparent;
+        font-size: 15.5px;
+        font-family: 'Be Vietnam Pro';
+        font-size: 15px;
+        margin: 10px 10px 22px;
+    }
+
+    input:focus {
+        outline: none;
+    }
+
+    .box {
+        width: 380px;
+        height: 2px;
+        background-color: #A18AFF;
+        margin-bottom: 14px;
+        margin-left: 9px;
+    }
+
+    .title_lable {
+        display: flex;
+        font-size: 16px;
+        padding: 1px;
+    }
+
+    .title_lable p {
+        color: #A18AFF;
+        line-height: 35.5px;
+    }
+
+    .input {
+        border: 0.5px solid;
+        border-radius: 8px;
+        padding: 3px 3px;
+        margin: 7px 5px;
+        display: flex;
+        width: 380px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .input_full input,
+    .input_full textarea {
+        width: 100%;
+    }
+
+    .button_edit {
+        display: flex;
+        position: relative;
+        left: 75%;
+        transform: translateX(-50%);
+    }

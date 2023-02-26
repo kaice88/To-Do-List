@@ -1,0 +1,131 @@
+@charset "ISO-8859-1";
+/* Reset CSS*/
+    * {
+        font-family: 'Be Vietnam Pro', sans-serif;
+        color: rgba(70, 62, 62, 0.8);
+    }
+
+    html {
+        /*hiệu ứng*/
+        font-family: 'Be Vietnam Pro', sans-serif;
+        font-size: 15.5px;
+        background-color: #A18AFF;
+    }
+
+    .clear {
+        clear: both;
+    }
+
+    .box_container {
+        width: 100%;
+        height: 44.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box_content {
+        width: 40rem;
+        height: 35rem;
+        background-color: #fff;
+        border-radius: 3rem;
+        box-shadow: 0 2rem 6rem rgb(0 0 0 / 30%);
+        overflow: hidden;
+        display: flex;
+    }
+
+    .input {
+        border: 1px solid;
+        border-radius: 8px;
+        padding: 10px 10px;
+        margin: 10px 10px;
+        display: flex;
+    }
+
+    .input_full textarea {
+        padding-top: 10px;
+    }
+
+    .input_full input,
+    .input_full textarea {
+        width: 434px;
+    }
+
+    .datetime_input {
+        display: flex;
+    }
+
+    .info_content {
+        text-align: center;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 35px;
+    }
+
+    input,
+    textarea {
+        border: none;
+        font-size: 15px;
+        font-family: 'Be Vietnam Pro';
+    }
+
+    i {
+        padding: 10px 10px;
+        color: #A18AFF;
+    }
+
+    .butAdd button {
+        position: absolute;
+        top: 77%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 6rem;
+        height: 2.3rem;
+        border: 0.15rem solid #A18AFF;
+        border-radius: 3rem;
+        color: #A18AFF;
+        cursor: pointer;
+        background-color: transparent;
+        font-size: 15.5px;
+        font-family: 'Be Vietnam Pro';
+        font-size: 15.5px;
+    }
+
+    button.but_exit {
+        position: absolute;
+        border: none;
+        background: transparent;
+        font-size: 18px;
+        color: rgba(70, 62, 62, 0.8);
+        margin: 10px;
+        cursor: pointer;
+        left: 82%;
+        top: 12%;
+        font-family: 'Be Vietnam Pro';
+        font-size: 15.5px;
+    }
+
+    /* custom date */
+    .flatpickr-calendar.animate.open.arrowTop.arrowLeft {
+        font-size: 12px;
+    }
+
+    .flatpickr-day.selected {
+        background: #A18AFF;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        color: #fff;
+        border-color: #A18AFF;
+    }
+
+    .flatpickr-calendar.hasTime .flatpickr-time {
+        height: 40px;
+        font-size: 15px;
+        border-radius: 5px;
+    }
+
+    input:focus,
+    textarea:focus {
+        outline: none;
+    }

@@ -1,0 +1,189 @@
+@charset "ISO-8859-1";
+/* Reset CSS*/
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        scroll-behavior: smooth;
+        /*hiệu ứng*/
+        font-family: 'Be Vietnam Pro', sans-serif;
+        color: rgba(70, 62, 62, 0.8);
+        background-color: #F9F8FD;
+        font-size: 15.5px;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    .sidebar_profile table {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .td {
+        width: 100%;
+        overflow: auto;
+        color: rgba(70, 62, 62, 0.8);
+    }
+
+    .td_icon,
+    .td_txt {
+        padding: 20px 10px;
+    }
+
+    .td_txt-tb,
+    .td_icon-tb {
+        color: rgba(70, 62, 62, 0.8);
+    }
+
+    .td_icon-tb {
+        position: relative;
+        left: 38px;
+    }
+
+    .td_icon-ava {
+        font-size: 38px;
+        color: rgba(70, 62, 62, 0.6);
+    }
+
+    .td_txt-tb {
+        width: 70%;
+        padding: 2px 20px;
+    }
+
+    .td_icon {
+        width: 30%;
+        float: left;
+        text-align: center;
+        position: relative;
+        left: 18px;
+        font-size: 15px
+    }
+
+    .td_txt {
+        width: 70%;
+        float: left;
+        padding-left: 20px;
+    }
+	p {
+	font-size: 15px;
+	}
+    .sidebar_nav {
+        margin-top: 30px;
+    }
+
+    .sidebar_nav a {
+        text-decoration: none;
+    }
+   
+    
+
+    .sidebar_nav a:hover .td {
+        background-color: rgba(161, 138, 255, 0.2);
+    }
+
+    div.sidebar_topic:hover .sidebar_topic-txt {
+        /* background-color: rgb(161, 138, 255, 0.3); */
+        color: #A18AFF;
+     
+    }
+		.sidebar_topic-txt {
+        /* background-color: rgb(161, 138, 255, 0.3); */
+        font-size: 15px;
+    }
+    div.logout_container:hover .logout_icon,
+    div.logout_container:hover .logout_txt {
+        color: #A18AFF;
+        font-size:15px;
+    }
+	 .logout_icon,
+     .logout_txt {
+       
+        font-size:15px;
+    }
+    .td.active {
+        color: #A18AFF;
+    }
+
+    .container_box {
+        width: 100%;
+        margin-top: 30px;
+        display: flex;
+    }
+
+    .box {
+        width: 200px;
+        height: 2px;
+        background-color: #A18AFF;
+        text-align: center;
+        margin: auto;
+    }
+
+    /* CSS Sidebar Topic */
+    .sidebar_topic {
+        display: flex;
+        overflow: hidden;
+        margin-left: 87px;
+        padding: 10px 0;
+        color: rgba(70, 62, 62, 0.8);
+    }
+
+    .sidebar_topic-dot {
+        margin: 5px 12px;
+        font-size: 8px;
+    }
+
+    .topic_sidebar_container {
+        
+        overflow: auto;
+    }
+
+    /* Custom scrollbar  */
+    ::-webkit-scrollbar {
+        width: 6px;
+
+    }
+
+    ::-webkit-scrollbar-track {
+        border-radius: 100vh;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: linear-gradient(rgb(250, 198, 8), rgb(253, 153, 175), rgb(63, 212, 244));
+    }
+
+
+    /* CSS Logout */
+    .logout_container {
+        display: flex;
+        position: absolute;
+        bottom: 0%;
+        margin-left: 29px;
+    }
+
+    .logout_txt {
+        padding: 17px 9px;
+        line-height: 58px;
+    }
+
+    .logout_icon {
+        padding: 35px 19px;
+        font-size: 20px;
+        line-height: 55px;
+    }
+
+    .container_box-logout {
+        color: rgba(70, 62, 62, 0.5);
+    }
+
+    .box.box_logout {
+        position: absolute;
+        bottom: 11%;
+        margin-left: 22px;
+        background-color: rgba(70, 62, 62, 0.5);
+    }
